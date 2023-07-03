@@ -26,7 +26,7 @@ public class Producto {
 	private String peso;
 	
 	@Column(name="contenido")
-	private int contenido;
+	private String contenido;
 	
 	
 	public Long getId() {
@@ -53,10 +53,10 @@ public class Producto {
 	public void setPeso(String peso) {
 		this.peso = peso;
 	}
-	public int getContenido() {
+	public String getContenido() {
 		return contenido;
 	}
-	public void setContenido(int contenido) {
+	public void setContenido(String contenido) {
 		this.contenido = contenido;
 	}
 	
